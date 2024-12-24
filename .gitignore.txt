@@ -1,4 +1,4 @@
-$ cat .gitignore
+
 *.csv
 /.vscode
 /csvs
