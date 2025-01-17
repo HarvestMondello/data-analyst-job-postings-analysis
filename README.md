@@ -31,7 +31,7 @@ In this project, I utilized a variety of tools to conduct my analysis:
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
 
-### Top Paying Data Analyst Jobs
+### 1. Top Paying Data Analyst Jobs
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
 
 ```sql
@@ -65,6 +65,52 @@ Companies like Meta, and AT & T are among those offering high salaries, showing 
 ![Top Paying Roles](https://github.com/HarvestMondello/SQL_Project_Data_Job_Analysis/blob/main/assets/1_viz.png)
 *bar graph visualizing the top 10 data analyst salaries for data analysts. This result was generated using Python. 
 
+### 2. Skills for Top Paying Jobs
+To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
+
+```sql
+-- Gets the top 10 paying Data Analyst jobs 
+WITH top_paying_jobs AS (
+    SELECT
+        job_id,
+        job_title,
+        salary_year_avg
+        -- name AS company_name
+    FROM
+        job_postings_fact
+    -- LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
+    WHERE
+        job_title_short = 'Data Analyst'
+				AND salary_year_avg IS NOT NULL
+        AND job_location = 'Anywhere'
+    ORDER BY
+        salary_year_avg DESC
+    LIMIT 10
+)
+-- Skills required for data analyst jobs
+SELECT
+    top_paying_jobs.job_id,
+    job_title,
+    salary_year_avg,
+    skills
+FROM
+    top_paying_jobs
+	INNER JOIN
+    skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
+	INNER JOIN
+    skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+ORDER BY
+    salary_year_avg DESC
+
+```
+Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs:
+
+**SQL** is leading with a count of 8.
+**Python** is second most in demand with a count of 7.
+**Tableau** is also highly sought after, with a count of 6. Other skills like R, Snowflake, Pandas, and Excel show varying demand.
+
+![Top Skills](https://github.com/HarvestMondello/SQL_Project_Data_Job_Analysis/blob/main/assets/2_viz.png)
+*bar graph visualizing the top 10 skills for data analysts. This result was generated using Python. 
 
 # What I Learned
 # Conclusion
