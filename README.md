@@ -254,11 +254,18 @@ Here's a breakdown of the top 25 skills paying the highest average salaries:
 **Programming Languages:** Python and R stand out for their high demand, with demand counts of 236 and 148 respectively. Despite their high demand, their average salaries are around $101,397 for Python and $100,499 for R, indicating that proficiency in these languages is highly valued but also widely available. Languages such as Go are less in demand but pay more awith a demand of 27 and $115,320 avarage salary.
 **Business Intelligence and Visualization Tools:** Tableau and Looker, with demand counts of 230 and 49 respectively, and average salaries around $99,288 and $103,795, highlight the critical role of data visualization and business intelligence in deriving actionable insights from data.
 **Database Technologies:** The demand for skills in traditional and NoSQL databases (Oracle, SQL Server, NoSQL) with average salaries ranging from $97,786 to $104,534, reflects the enduring need for data storage, retrieval and management. 
-# What I Learned
-
-
-
 
 
 # Conclusion
+### Insights
+The completed analysis shows five insights:
+1. **Top Paying Data Analyst Jobs:** The highest paying jobs have a very large range topping out at $650,000.
+2. **Skills for Top Paying Jobs:** SQL is a skill that all the highest paying data analysts need.
+3. **Most Demanded Skills**: Again, SQL is the overall most demanded skill in the data analyst job market.
+4. **Skills with the Highest Pay**: Include niche skills including cloud computing skills.
+5. **Optimal Skill for the Job Market**: SQL is the most in demand skill and offers a high average salary, making it a very important skill to have.
+
+### Closing Thoughts 
+&ensp;&ensp;&ensp;&ensp;Both junior and senior data analysts can better position themeselves in the job my by focusing on high demand skills. Through this project I increased my hands on SQL skills and came to see valuable insights into the data analyst job market. This will help me focus my skill development and job searches in a more targeted way. Additionally, showcaseing the project on Github increased my knowledge of Github, Git and allowed me to showcase a professional README file to integrate into my personal portfolio. 
+
 
