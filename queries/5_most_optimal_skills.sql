@@ -1,4 +1,4 @@
-
+-- Identify the top 5 skills in high demand for Data Analyst roles
 SELECT 
     skills_dim.skill_id,
     skills_dim.skills,
