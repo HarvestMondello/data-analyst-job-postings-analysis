@@ -7,9 +7,9 @@ See the SQL queries here: [queries folder](/queries/)
 # Background
 At the time of this project I was in the market for a data analytics position and I wanted to understand the data analyst job market better. 
 
-In order to make my job search more targeted and more effected. I intended to discover which skills are paid the most, what analysis and visualation tools arein demand., 
+In order to make my job search more targeted and more effected. I intended to discover which skills are paid the most, what analysis and visualation tools are in demand. 
 
-The data for this analysis is from Luke Barousse’s SQL Course (https://www.lukebarousse.com/sql). The data includes details on job titles, salaries, locations, and required skills. 
+The data for this analysis is from Luke Barousse’s SQL Course (https://www.lukebarousse.com/sql) and the data was provided by his web scraper. The data includes details on job titles, salaries, locations, and required skills. 
 
 The questions I wanted to answer through my SQL queries were:
 
@@ -257,6 +257,18 @@ Here's a breakdown of the top 25 skills paying the highest average salaries:
 
 
 # Conclusion
+
+### The Problem
+In order to make my Data Analyst job search more targeted and more effected, I wanted to discover which skills are paid the most, what analysis and visualation tools are in demand.
+
+### How I Solved the Problem
+I designed five SQL queries to answer sub questions related to my overall question:
+1. What are the top paying data analyst jobs?
+2. What skills do these top paying jobs require?
+3. What skills are most demanded by the market?
+4. Which skills bring in the highest salaries?
+5. Which skills have both a high demand and high salary?
+
 ### Insights
 The completed analysis shows five insights:
 1. **Top Paying Data Analyst Jobs:** The highest paying jobs have a very large range topping out at $650,000.
@@ -265,7 +277,7 @@ The completed analysis shows five insights:
 4. **Skills with the Highest Pay**: Include niche skills including cloud computing skills.
 5. **Optimal Skill for the Job Market**: SQL is the most in demand skill and offers a high average salary, making it a very important skill to have.
 
-### Closing Thoughts 
+### Closing Thoughts and Actionable Recommendation
 &ensp;&ensp;&ensp;&ensp;Both junior and senior data analysts can better position themeselves in the job my by focusing on high demand skills. Through this project I increased my hands on SQL skills and came to see valuable insights into the data analyst job market. This will help me focus my skill development and job searches in a more targeted way. Additionally, showcaseing the project on Github increased my knowledge of Github, Git and allowed me to showcase a professional README file to integrate into my personal portfolio. 
 
 
