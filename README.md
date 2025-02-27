@@ -1,4 +1,6 @@
 
+## Job Analysis in SQL
+
 # Introduction
 Welcome to my SQL project. In this project I will look at the US data job market with a focus on data analytics roles. This project will explore top paying jobs, in demand tools, and where high demand meets high salaries for data analytics.
 
