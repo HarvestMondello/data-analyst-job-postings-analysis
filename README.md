@@ -65,7 +65,7 @@ The top 10 paying data analyst roles have a range from $184,000 to $650,000 indi
 Companies like Meta, and AT & T are among those offering high salaries, showing analyst positions in different industries.
 **Job Title Variety**: There's a large diversity in job titles, from Data Analyst to Director of Analytics, showing varied roles and specializations within data analytics.
 
-![Top Paying Roles](https://github.com/HarvestMondello/SQL_Project_Data_Job_Analysis/blob/main/assets/1_viz.png)
+![Top Paying Roles](https://github.com/HarvestMondello/SQL_Project_Data_Job_Analysis/blob/main/assets/viz-1.png)
 *bar graph visualizing the top 10 data analyst salaries for data analysts. This result was generated using Python. 
 
 ### 2. Skills for Top Paying Jobs
@@ -112,7 +112,7 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying d
 **Python** is second most in demand with a count of 7.
 **Tableau** is also highly sought after, with a count of 6. Other skills like R, Snowflake, Pandas, and Excel show varying demand.
 
-![Top Skills](https://github.com/HarvestMondello/SQL_Project_Data_Job_Analysis/blob/main/assets/2_viz.png)
+![Top Skills](https://github.com/HarvestMondello/SQL_Project_Data_Job_Analysis/blob/main/assets/viz-2.png)
 *bar graph visualizing the top 10 skills for data analysts. This result was generated using Python. 
 
 ### 3. In-Demand Skills for Data Analysts
