@@ -3,8 +3,11 @@
 
 # Synopsis
 Problem: Identify trends in the data job market for targeted job applications.
+
 Solution: Queried 1,500+ job listings using PostgreSQL, extracting top in-demand skills and industry trends. Visualized insights in Python.
+
 Insights: SQL is the most in demand job for data analytics. 
+
 Recommendation: Built a SQL-focused portfolio project, showcasing real-world data analysis & visualization skills to align with industry demands.
 
 # Introduction
