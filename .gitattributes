@@ -1,5 +1,5 @@
 # Exclude Python scripts
-*.py linguist-documentation
+# *.py linguist-documentation
 
 # Exclude Jupyter Notebooks
 *.ipynb linguist-documentation
