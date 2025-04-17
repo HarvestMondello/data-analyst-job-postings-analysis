@@ -1,0 +1,4 @@
+*.py linguist-documentation
+*.ipynb linguist-documentation
+*.csv linguist-generated
+*.sql linguist-language=SQL
