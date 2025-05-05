@@ -292,3 +292,6 @@ The completed analysis shows five insights:
 &ensp;&ensp;&ensp;&ensp;Both junior and senior data analysts can better position themeselves in the job my by focusing on high demand skills. Through this project I increased my hands on SQL skills and came to see valuable insights into the data analyst job market. This will help me focus my skill development and job searches in a more targeted way. Additionally, showcaseing the project on Github increased my knowledge of Github, Git and allowed me to showcase a professional README file to integrate into my personal portfolio. 
 
 
+### License
+
+You're welcome to use this project for **personal** or **educational** purposes! Feel free to explore, adapt, and learn from the code and visuals. Just note that **commercial use isn’t permitted** without permission. See [LICENSE.md](https://github.com/HarvestMondello/data-analyst-job-postings-analysis/blob/main/LICENSE.MD) for full details and contact info.
