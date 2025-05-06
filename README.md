@@ -15,6 +15,17 @@ Welcome to my SQL project. In this project I will look at the US data job market
 
 See the SQL queries here: [queries folder](/queries/)
 
+## Table of Contents
+
+- [Synopsis](#synopsis)
+- [Introduction](#introduction)
+- [Background](#background)
+- [Tools I Used](#tools-i-used)
+- [How I Built It](#how-i-built-it)
+- [The Analysis](#the-analysis)
+- [Conclusion](#conclusion)
+- [License](#license)
+
 # Background
 At the time of this project I was in the market for a data analytics position and I wanted to understand the data analyst job market better. 
 
@@ -30,7 +41,7 @@ The questions I wanted to answer through my SQL queries were:
 4. Which skills are associated with higher salaries?
 5. What are the most optimal skills to learn for a data analyst looking to maximize job market value?
 
-# Tools I used
+# Tools I Used
 In this project, I utilized a variety of tools to conduct my analysis:
 
 - **SQL** (Structured Query Language): Enabled me to interact with the database, extract insights, and answer my key questions through queries.
@@ -39,6 +50,10 @@ In this project, I utilized a variety of tools to conduct my analysis:
 - **Python** In VS Code: Enabled me to visualize the query output which I had saved as csv (comma seperated value) files after running each SQL query. 
 - **Gitub and Git**: To share my analysis, visualizations and code
 - **ChatGPT**: Used for routine formating tasks to be more efficient.
+
+
+# How I Built It
+I hosted the SQL database in PostrgreSQL, designed my queries and visualized the query results in Python using VSCode for both SQL and Python.
 
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
