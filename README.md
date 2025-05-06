@@ -20,7 +20,7 @@ At the time of this project I was in the market for a data analytics position an
 
 In order to make my job search more targeted and more effected. I intended to discover which skills are paid the most, what analysis and visualation tools are in demand. 
 
-The data for this analysis is from Luke Barousse’s SQL Course (https://www.lukebarousse.com/sql) and the data was provided by his web scraper. The data includes details on job titles, salaries, locations, and required skills. 
+The data for this analysis is from [Luke Barousse’s SQL Course](https://www.lukebarousse.com/sql) and the data was provided by his web scraper. The data includes details on job titles, salaries, locations, and required skills. 
 
 The questions I wanted to answer through my SQL queries were:
 
